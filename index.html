@@ -29,11 +29,11 @@
 
 <!-- Right-sided navbar links -->
 <div class="navbar w3-right w3-hide-small w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-    <a href="#team" class="w3-bar-item w3-button">TEAM</a>
-    <a href="#work" class="w3-bar-item w3-button">WORK</a>
-    <a href="#pricing" class="w3-bar-item w3-button">PRICING</a>
-    <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+    <a href="#about" class="w3-bar-item w3-button">link</a>
+    <a href="#team" class="w3-bar-item w3-button">link</a>
+    <a href="#work" class="w3-bar-item w3-button">link</a>
+    <a href="#pricing" class="w3-bar-item w3-button">link</a>
+    <a href="#contact" class="w3-bar-item w3-button">link</a>
 </div>
 
 <!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -46,11 +46,11 @@
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-large" style="display:none" id="mySidebar">
     <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-    <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
-    <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">link</a>
+    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">link</a>
+    <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">link</a>
+    <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">link</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">link</a>
 </nav>
 
 <!--HEADER-->
@@ -129,63 +129,36 @@
 
 <!-- TRANSFORMATION SECTION -->
 <!-- Slideshow Header -->
-<div class="w3-container" style="width: 1000px;">
-    <h2>TRANSFORMATIONS</h2>
-    <div class="w3-display-container mySlides">
-        <img src="/w3images/livingroom.jpg" style="width:50%;margin-bottom:-6px">
-        <div class="w3-display-bottomleft w3-container w3-black">
-            <p>WEEKS</p>
+    <h2 class="w3-text-center" style="margin-top: 100px;">TRANSFORMATIONS</h2>
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="img/no-image.png" style="width: 100%;">
+        <img class="mySlides" src="img/no-image.png">
+        <img class="mySlides" src="img/no-image.png">
+        <div class="w3-center w3-display-bottommiddle" style="width:100%">
+            <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
         </div>
     </div>
-    <div class="w3-display-container mySlides">
-        <img src="/w3images/diningroom.jpg" style="width:50%;margin-bottom:-6px">
-        <div class="w3-display-bottomleft w3-container w3-black">
-            <p>WEEKS</p>
-        </div>
-    </div>
-    <div class="w3-display-container mySlides">
-        <img src="/w3images/bedroom.jpg" style="width:50%;margin-bottom:-6px">
-        <div class="w3-display-bottomleft w3-container w3-black">
-            <p>WEEKS</p>
-        </div>
-    </div>
-    <div class="w3-display-container mySlides">
-        <img src="/w3images/livingroom2.jpg" style="width:50%;margin-bottom:-6px">
-        <div class="w3-display-bottomleft w3-container w3-black">
-            <p>WEEKS</p>
-        </div>
-    </div>
-</div>
-<div class="w3-row-padding w3-section" style="width: 500px;">
-    <div class="w3-col s3">
-        <img class="demo w3-opacity w3-hover-opacity-off" src="/w3images/livingroom.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)" title="TRANSFOR">
-    </div>
-    <div class="w3-col s3">
-        <img class="demo w3-opacity w3-hover-opacity-off" src="/w3images/diningroom.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)" title="TRANFOR">
-    </div>
-    <div class="w3-col s3">
-        <img class="demo w3-opacity w3-hover-opacity-off" src="/w3images/bedroom.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)" title="TRANS">
-    </div>
-    <div class="w3-col s3">
-        <img class="demo w3-opacity w3-hover-opacity-off" src="/w3images/livingroom2.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(4)" title="TRANS">
-    </div>
-</div>
 
 
 <!--SERVICES SECTION-->
 <!-- Work Section -->
-<h1 class="w3-center">SERVICES</h1>
+
+<h1 class="w3-center" style="margin-top: 100px;">SERVICES</h1>
 <p class="w3-center w3-large">What we do for you</p>
 
-<div class="w3-row-padding w3-padding-16 w3-center">
-    <div class="w3-quarter">
+<div class="w3-row-padding w3-center w3-padding-16">
+    <div class="w3-quarter w3-padding-16">
         <img src="img/Accountability%20.jpeg" alt="Sandwich" style="width:200px" height="400px;">
-        <h3>1 on 1 CHECK-INS</h3>
+        <h3>GROUP ACCOUNTABILITY</h3>
         <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
     <div class="w3-quarter w3-padding-16">
         <img src="img/Accountability%202.png" alt="Steak"  class="w3-padding-24" style="width:200px" height="400px;">
-        <h3>GROUP ACCOUNTABILITY</h3>
+        <h3>1 on 1 CHECK-INS</h3>
         <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
     <div class="w3-quarter w3-padding-16">
@@ -230,7 +203,7 @@
 </div>
 
 <!--CONTACT SECTION-->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+<div class="w3-container w3-dark-grey" style="padding:128px 16px" id="contact">
     <h3 class="w3-center">CONTACT</h3>
     <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
     <div style="margin-top:48px">
@@ -251,9 +224,17 @@
         </form>
 
 <!--FOOTER-->
-
-
-
+        <footer class="w3-center w3-black w3-padding-64">
+            <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+            <div class="w3-xlarge w3-section">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </div>
+        </footer>
 
 <!--SCRIPT SECTION-->
 <script>
